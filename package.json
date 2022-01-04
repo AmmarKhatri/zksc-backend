@@ -1,0 +1,32 @@
+{
+  "name": "backend-zksc",
+  "version": "1.0.0",
+  "description": "Node Restful API for ZKSC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "i": "^0.3.7",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.0.1",
+    "string": "^3.3.3"
+  }, 
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
